@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid 19 Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="center">COVID-19 Tracker</h1>
+        </div>
+    </header>
+    <main>
+        
+        <section class="verticaleDistance">
+           <div class="search">
+               <label>Search:</label>
+               <input type="text" name="country" id="SearchCounty" placeholder="Country">
+           </div>
+        </section>
+        <section class="verticaleDistance">
+            <table class="dataTable" id="dataTable">
+                <thead>
+                    <tr>
+                        <th>Country<img class="sortArrow" src="" alt=""></th>
+                        <th>New Confirmed <img class="sortArrow" src="" alt=""></th>
+                        <th>New Deaths <img class="sortArrow" src="" alt=""></th>
+                        <th>New Recovered  <img class="sortArrow" src="" alt=""></th>
+                        <th>Total Confirmed  <img class="sortArrow" src="" alt=""></th>
+                        <th>Total Deaths  <img class="sortArrow" src="" alt=""></th>
+                        <th>Total Recovered  <img class="sortArrow" src="" alt=""> </th>
+                    </tr>
+                </thead>
+               
+                <tbody id="tableBody">
+
+                </tbody>
+            </table>
+            <div id="error" class="hide"></div>
+        </section>
+    </main>
+    <footer class="footer verticaleDistance">
+        <div class="center footerContainer "> 
+            <ul>
+                <li>Author: Gaurav Pingale</li>
+                <li>Contact us: gauravpingale4@gmail.com</li>
+            </ul>    
+        </div>   
+    </footer>
+</body>
+<script src="js/main.js"></script>
+</html>

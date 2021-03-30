@@ -1,0 +1,101 @@
+.center{
+    margin: 0;
+    text-align: center;
+}
+.verticaleDistance{
+    margin-top: 30px;
+}
+header{
+    background-color: black;
+    padding: 20px;
+    color: white; 
+}
+.search{
+    font-size: 20px;
+}
+.search input{
+    height: 30px;
+    width: 161px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-style: italic;
+}
+.dataTable{
+    
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black ;
+}
+
+.tableRow{
+    height: 30px;
+    border-top: 1px solid rgb(128, 128, 128);
+    font-size: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+#error{
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sortArrow{
+   display: none;
+    height: 20px;
+}
+
+th,td{
+    width: 200px;
+}
+
+th{
+    background-color:rgb(119 255 126 / 51%);
+    text-transform: uppercase;
+    color: brown;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 21px;
+}
+
+td{
+    border: 1px solid rgb(128, 128, 128);
+    height: 40px;
+}
+
+td:first-child{
+    border-left: 1px solid black;
+}
+td:last-child{
+    border-right: 1px solid black;
+}
+
+tr:nth-child(odd){
+    background: rgb(255, 255, 255);
+}
+tr:nth-child(even){
+    background: 	rgb(242, 242, 242);
+}
+
+tbody tr:hover{
+    background-color: rgb(175, 174, 174);
+}
+
+.footer{
+    position: relative;
+    background-color: black;
+   padding: 20px;
+    color: white;
+}
+
+.footer ul li{
+    margin-left: 20px; 
+    display: inline-block  ;
+    text-align: center;
+}
